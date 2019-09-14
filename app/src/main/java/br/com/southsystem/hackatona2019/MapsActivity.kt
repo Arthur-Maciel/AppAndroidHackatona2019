@@ -8,6 +8,7 @@ import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
+import com.google.android.gms.maps.model.Circle
 import com.google.android.gms.maps.model.CircleOptions
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
@@ -17,7 +18,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
     private lateinit var mMap: GoogleMap
 
-    val areas: ArrayList<Any>? = null
+    private val areas: ArrayList<Area> = arrayListOf()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,47 +27,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         val mapFragment = supportFragmentManager
             .findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
-
-        popula()
-
-    }
-
-    fun popula() {
-//        for (i in list) {
-//            if (i.selecionada!!) {
-//                dados!!.add(i.name)
-//            }
-//        }
-
-
-        val Area1 = object {
-            val latitude = "-30.0699753"
-            val longitude = "-51.1757777"
-            val raio = "500"
-            val status = object {
-                val situacao = "em alerta"
-            }
-        }
-        val Area2 = object {
-            val latitude = "-30.0562199"
-            val longitude = "-51.1800445"
-            val raio = "300"
-            val status = object {
-                val situacao = "sereno"
-            }
-        }
-        val Area3 = object {
-            val latitude = "-51.1800445"
-            val longitude = "-51.166284"
-            val raio = "150"
-            val status = object {
-                val situacao = "perigo"
-            }
-        }
-
-        areas?.add(Area1)
-        areas?.add(Area2)
-        areas?.add(Area3)
 
     }
 
@@ -79,7 +39,17 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.moveCamera(CameraUpdateFactory.newLatLng(puc))
         mMap.setMinZoomPreference(15f)
 
-        loadAreas()
+        val area1 = Area("area 1",-30.0699753, -51.1757777,500, Status("mato","em alerta", 900))
+        val area2 = Area("area 2",-30.0562199, -51.1800445, 300, Status("riacho","sereno", 870))
+        val area3 = Area("area 3",-30.0605308, -51.166284, 150, Status("arvores","perigo", 1403))
+
+        areas.add(area1)
+        areas.add(area2)
+        areas.add(area3)
+
+        val circles: List<CircleOptions>? = loadAreas()
+
+        circles?.forEach { mMap.addCircle(it) }
 
         mMap.setOnCircleClickListener {
             println(it.isVisible)
@@ -87,27 +57,35 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     }
 
 
-    private fun loadAreas() {
+    private fun loadAreas() = areas.map {
 
-        if (areas != null) {
-            for (i in areas) {
-                
+            val cent = LatLng(it.latitude.toDouble(), it.longitude.toDouble())
+
+            when {
+                it.Status.situacao.equals("sereno") ->
+                    CircleOptions()
+                        .center(cent)
+                        .radius(it.raio.toDouble())
+                        .strokeWidth(5f)
+                        .strokeColor(Color.GREEN)
+                            .fillColor(Color.argb(70, 124, 252, 0))
+                it.Status.situacao.equals("em alerta") ->
+                    CircleOptions()
+                        .center(cent)
+                        .radius(it.raio.toDouble())
+                        .strokeWidth(5f)
+                        .strokeColor(Color.YELLOW)
+                            .fillColor(Color.argb(70, 255, 255, 0))
+
+                else ->
+                    CircleOptions()
+                        .center(cent)
+                        .radius(it.raio.toDouble())
+                        .strokeWidth(5f)
+                        .strokeColor(Color.RED)
+                            .fillColor(Color.argb(70,150, 70, 70))
+
             }
         }
-
-
-
-        val redArea2 = LatLng(-30.0699753, -51.1757777)
-
-       mMap.addCircle(
-            CircleOptions()
-                .center(redArea2)
-                .radius(500.0)
-                .strokeWidth(5f)
-                .strokeColor(Color.RED)
-                .fillColor(Color.argb(70,150,70,70))
-                .clickable(true)
-        )
-    }
 
 }
