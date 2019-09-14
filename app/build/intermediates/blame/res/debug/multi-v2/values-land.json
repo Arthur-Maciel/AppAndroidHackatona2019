@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\SouthSystem\\.gradle\\caches\\transforms-2\\files-2.1\\dadbeb25430cd54fc6a0f915801c7b25\\appcompat-1.1.0\\res\\values-land\\values-land.xml",
+                    "source": "/home/ages/.gradle/caches/transforms-2/files-2.1/5fc33b7e3efb9f43823b4bd880e1f39f/appcompat-1.1.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
