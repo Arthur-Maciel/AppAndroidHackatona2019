@@ -4,7 +4,17 @@
             "outputFile": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\SouthSystem\\.gradle\\caches\\transforms-2\\files-2.1\\a862505abe431c1edbc88e990b22972b\\appcompat-1.1.0-alpha03\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\SouthSystem\\.gradle\\caches\\transforms-2\\files-2.1\\427dcdf5540e4c7a4a0e28907bdf698a\\core-1.1.0-alpha05\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\SouthSystem\\.gradle\\caches\\transforms-2\\files-2.1\\41806b31e3867502dd1b2454fd30a0c3\\appcompat-1.1.0-alpha03\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\SouthSystem\\.gradle\\caches\\transforms-2\\files-2.1\\8d8842863f92775e9d27e73a2dce7b0c\\core-1.1.0-alpha05\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]

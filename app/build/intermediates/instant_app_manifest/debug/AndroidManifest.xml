@@ -33,7 +33,6 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-        <activity android:name="br.com.southsystem.hackatona2019.EventoActivity" />
         <activity android:name="br.com.southsystem.hackatona2019.ComentarioActivity" />
         <activity android:name="br.com.southsystem.hackatona2019.HistoricoActivity" />
         <activity android:name="br.com.southsystem.hackatona2019.RecursosActivity" />
