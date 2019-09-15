@@ -38,7 +38,7 @@
 23-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\09fd0ce3961234dba400bced00595740\jetified-play-services-maps-16.1.0\AndroidManifest.xml:28:9-32
 24
 25    <application
-25-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:15:5-45:19
+25-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:15:5-46:19
 26        android:allowBackup="true"
 26-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:16:9-35
 27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -52,36 +52,38 @@
 31-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:19:9-54
 32        android:supportsRtl="true"
 32-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:20:9-35
-33        android:testOnly="true"
-34        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-34-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:21:9-65
+33        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+33-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:21:9-65
+34        <activity android:name="br.com.southsystem.hackatona2019.FormActivity" />
+34-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:22:9-59
+34-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:22:19-47
 35        <activity android:name="br.com.southsystem.hackatona2019.ComentarioActivity" />
-35-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:22:9-56
-35-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:22:19-53
+35-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:23:9-56
+35-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:23:19-53
 36        <activity android:name="br.com.southsystem.hackatona2019.HistoricoActivity" />
-36-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:23:9-55
-36-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:23:19-52
+36-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:24:9-55
+36-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:24:19-52
 37        <activity android:name="br.com.southsystem.hackatona2019.RecursosActivity" />
-37-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:24:9-54
-37-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:24:19-51
+37-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:25:9-54
+37-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:25:19-51
 38        <activity android:name="br.com.southsystem.hackatona2019.DadosActivity" />
-38-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:25:9-51
-38-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:25:19-48
+38-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:26:9-51
+38-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:26:19-48
 39        <activity android:name="br.com.southsystem.hackatona2019.DadosLocalidadeActivity" />
-39-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:26:9-61
-39-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:26:19-58
+39-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:27:9-61
+39-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:27:19-58
 40        <activity android:name="br.com.southsystem.hackatona2019.MainActivity" >
-40-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:27:9-33:20
-40-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:27:19-47
+40-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:28:9-34:20
+40-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:28:19-47
 41            <intent-filter>
-41-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:28:13-32:29
+41-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:29:13-33:29
 42                <action android:name="android.intent.action.MAIN" />
-42-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:29:17-69
-42-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:29:25-66
+42-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:30:17-69
+42-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:30:25-66
 43
 44                <category android:name="android.intent.category.LAUNCHER" />
-44-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:31:17-77
-44-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:31:27-74
+44-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:32:17-77
+44-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:32:27-74
 45            </intent-filter>
 46        </activity>
 47        <!--
@@ -93,11 +95,11 @@
 53             You can define the keys for the debug and release targets in src/debug/ and src/release/.
 54        -->
 55        <meta-data
-55-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:42:9-44:55
+55-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:43:9-45:55
 56            android:name="com.google.android.geo.API_KEY"
-56-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:43:13-58
+56-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:44:13-58
 57            android:value="@string/google_maps_key" />
-57-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:44:13-52
+57-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:45:13-52
 58        <!-- Needs to be explicitly declared on P+ -->
 59        <uses-library
 59-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\09fd0ce3961234dba400bced00595740\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40

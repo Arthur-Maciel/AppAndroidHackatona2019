@@ -105,44 +105,40 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
         val cent = LatLng(it.latitude!!.toDouble(), it.longitude!!.toDouble())
 
         var circle: CircleOptions? = null
-         if (it.status!!.situacao.equals("Verde")) {
-             circle = CircleOptions()
-                 .center(cent)
-                 .radius(it.raio!!.toDouble())
-                 .strokeWidth(5f)
-                 .strokeColor(Color.GREEN)
-                 .fillColor(Color.argb(70, 124, 252, 0))
-                 .clickable(true)
-         } else if (it.status.situacao.equals("Amarelo")) {
-             circle = CircleOptions()
-                 .center(cent)
-                 .radius(it.raio!!.toDouble())
-                 .strokeWidth(5f)
-                 .strokeColor(Color.YELLOW)
-                 .fillColor(Color.argb(150, 255, 215, 0))
-                 .clickable(true)
-         } else {
-             circle = CircleOptions()
-                 .center(cent)
-                 .radius(it.raio!!.toDouble())
-                 .strokeWidth(5f)
-                 .strokeColor(Color.RED)
-                 .fillColor(Color.argb(70, 150, 70, 70))
-                 .clickable(true)
-         }
+        if (it.status!!.situacao.equals("Verde")) {
+            circle = CircleOptions()
+                .center(cent)
+                .radius(it.raio!!.toDouble())
+                .strokeWidth(5f)
+                .strokeColor(Color.GREEN)
+                .fillColor(Color.argb(70, 124, 252, 0))
+                .clickable(true)
+        } else if (it.status.situacao.equals("Amarelo")) {
+            circle = CircleOptions()
+                .center(cent)
+                .radius(it.raio!!.toDouble())
+                .strokeWidth(5f)
+                .strokeColor(Color.YELLOW)
+                .fillColor(Color.argb(150, 255, 215, 0))
+                .clickable(true)
+        } else {
+            circle = CircleOptions()
+                .center(cent)
+                .radius(it.raio!!.toDouble())
+                .strokeWidth(5f)
+                .strokeColor(Color.RED)
+                .fillColor(Color.argb(70, 150, 70, 70))
+                .clickable(true)
+        }
         val circleObj = mMap.addCircle(circle!!)
         areas.put(circleObj, it!!)
     }
 
-//    fun nextActivity(view: View) {
-//        val viewModel = ViewModelProviders.of(this).get(DadosViewModel::class.java)
-//        viewModel.dadosLiveData.observe(this, Observer {
-//            it?.let { dados ->
-//                intent = Intent(this, DadosLocalidadeActivity::class.java).putExtra("dados", it[1])
-//                startActivity(intent)
-//            }
-//        })
-//        viewModel.getDados()
-//    }
+    fun nextActivity(view: View) {
+        intent = Intent(this, DadosLocalidadeActivity::class.java)
+        startActivity(intent)
+    }
 
 }
+
+

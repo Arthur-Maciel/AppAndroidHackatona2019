@@ -19,6 +19,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".FormActivity"></activity>
         <activity android:name=".ComentarioActivity" />
         <activity android:name=".HistoricoActivity" />
         <activity android:name=".RecursosActivity" />

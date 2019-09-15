@@ -76,6 +76,10 @@
         "source": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\lupa.png"
     },
     {
+        "merged": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_form.xml.flat",
+        "source": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\src\\main\\res\\layout\\activity_form.xml"
+    },
+    {
         "merged": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
