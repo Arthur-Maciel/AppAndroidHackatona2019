@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "370332443410",
+    "firebase_url": "https://hackatonadesastres.firebaseio.com",
+    "project_id": "hackatonadesastres",
+    "storage_bucket": "hackatonadesastres.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370332443410:android:f0570c7c4a7b415c6549cb",
+        "android_client_info": {
+          "package_name": "br.com.southsystem.hackatona2019"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370332443410-gtk0re0dkb1dk87c150mstko3jmph49l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.southsystem.hackatona2019",
+            "certificate_hash": "bae57da75e57829a2670aa156cf9316a103b085a"
+          }
+        },
+        {
+          "client_id": "370332443410-6nkbhlsij55p6t4k4j26e9ak1g7ovtuc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCodrpKvYOON4ZPq3tFEFO1aucGMgHK_h8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370332443410-6nkbhlsij55p6t4k4j26e9ak1g7ovtuc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
