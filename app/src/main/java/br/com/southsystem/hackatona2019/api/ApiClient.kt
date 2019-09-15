@@ -1,6 +1,5 @@
 package br.com.southsystem.hackatona2019.api
 
-import org.jetbrains.annotations.Contract
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -36,6 +35,21 @@ object ApiClient {
                 } else {
                     connectionListener.fail(response.message())
                 }
+            }
+        })
+    }
+
+    fun setDados(evento: ConnectionListener<Evento>) {
+        requestClient.setDados(evento).enqueue(object : Callback<Evento> {
+            override fun onResponse(call: Call<Evento>, response: Response<Evento>) {
+
+                if (response.isSuccessful()) {
+                    println("success")
+                }
+            }
+
+            override fun onFailure(call: Call<Evento>, t: Throwable) {
+                println("success")
             }
         })
     }

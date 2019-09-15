@@ -1,4 +1,4 @@
-#Sun Sep 15 05:34:27 BRT 2019
-base.0=C\:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+#Sun Sep 15 07:36:42 BRT 2019
+base.0=/media/herciliomartinsortiz/Dados/Documentos/Eng-de-Software/Hackatona2019/aliensDoGramado/app/build/intermediates/dex/debug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

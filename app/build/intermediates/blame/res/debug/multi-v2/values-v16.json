@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "/media/herciliomartinsortiz/Dados/Documentos/Eng-de-Software/Hackatona2019/aliensDoGramado/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\SouthSystem\\.gradle\\caches\\transforms-2\\files-2.1\\427dcdf5540e4c7a4a0e28907bdf698a\\core-1.1.0-alpha05\\res\\values-v16\\values-v16.xml",
+                    "source": "/home/herciliomartinsortiz/.gradle/caches/transforms-2/files-2.1/427dcdf5540e4c7a4a0e28907bdf698a/core-1.1.0-alpha05/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\SouthSystem\\.gradle\\caches\\transforms-2\\files-2.1\\41806b31e3867502dd1b2454fd30a0c3\\appcompat-1.1.0-alpha03\\res\\values-v16\\values-v16.xml",
+                    "source": "/home/herciliomartinsortiz/.gradle/caches/transforms-2/files-2.1/41806b31e3867502dd1b2454fd30a0c3/appcompat-1.1.0-alpha03/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

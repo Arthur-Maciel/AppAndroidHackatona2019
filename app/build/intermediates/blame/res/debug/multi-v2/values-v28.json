@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
+            "outputFile": "/media/herciliomartinsortiz/Dados/Documentos/Eng-de-Software/Hackatona2019/aliensDoGramado/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\SouthSystem\\.gradle\\caches\\transforms-2\\files-2.1\\41806b31e3867502dd1b2454fd30a0c3\\appcompat-1.1.0-alpha03\\res\\values-v28\\values-v28.xml",
+                    "source": "/home/herciliomartinsortiz/.gradle/caches/transforms-2/files-2.1/41806b31e3867502dd1b2454fd30a0c3/appcompat-1.1.0-alpha03/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",

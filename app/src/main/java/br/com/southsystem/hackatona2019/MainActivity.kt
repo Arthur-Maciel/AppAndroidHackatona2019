@@ -11,6 +11,7 @@ import androidx.core.app.ActivityCompat
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import br.com.southsystem.hackatona2019.api.Data
+import br.com.southsystem.hackatona2019.api.Evento
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -131,12 +132,20 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
                 .clickable(true)
         }
         val circleObj = mMap.addCircle(circle!!)
-        areas.put(circleObj, it!!)
+        areas.put(circleObj, it)
     }
 
     fun nextActivity(view: View) {
         intent = Intent(this, DadosLocalidadeActivity::class.java)
         startActivity(intent)
+    }
+
+    fun emergencyButtonAction() {
+        val lat = lastLocation.latitude
+        val lon = lastLocation.longitude
+        val evento = Evento(lat, lon)
+        val viewModel = ViewModelProviders.of(this).get(DadosViewModel::class.java)
+        viewModel.setDados(evento)
     }
 
 }

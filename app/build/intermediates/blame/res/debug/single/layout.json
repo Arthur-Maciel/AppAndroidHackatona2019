@@ -1,22 +1,22 @@
 [
     {
-        "merged": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_historico.xml",
-        "source": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\src\\main\\res\\layout\\activity_historico.xml"
+        "merged": "/media/herciliomartinsortiz/Dados/Documentos/Eng-de-Software/Hackatona2019/aliensDoGramado/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_recursos.xml",
+        "source": "/media/herciliomartinsortiz/Dados/Documentos/Eng-de-Software/Hackatona2019/aliensDoGramado/app/src/main/res/layout/activity_recursos.xml"
     },
     {
-        "merged": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_lista.xml",
-        "source": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\src\\main\\res\\layout\\item_lista.xml"
+        "merged": "/media/herciliomartinsortiz/Dados/Documentos/Eng-de-Software/Hackatona2019/aliensDoGramado/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_historico.xml",
+        "source": "/media/herciliomartinsortiz/Dados/Documentos/Eng-de-Software/Hackatona2019/aliensDoGramado/app/src/main/res/layout/activity_historico.xml"
     },
     {
-        "merged": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_recursos.xml",
-        "source": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\src\\main\\res\\layout\\activity_recursos.xml"
+        "merged": "/media/herciliomartinsortiz/Dados/Documentos/Eng-de-Software/Hackatona2019/aliensDoGramado/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_comentario.xml",
+        "source": "/media/herciliomartinsortiz/Dados/Documentos/Eng-de-Software/Hackatona2019/aliensDoGramado/app/src/main/res/layout/activity_comentario.xml"
     },
     {
-        "merged": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_comentario.xml",
-        "source": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\src\\main\\res\\layout\\activity_comentario.xml"
+        "merged": "/media/herciliomartinsortiz/Dados/Documentos/Eng-de-Software/Hackatona2019/aliensDoGramado/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_dados.xml",
+        "source": "/media/herciliomartinsortiz/Dados/Documentos/Eng-de-Software/Hackatona2019/aliensDoGramado/app/src/main/res/layout/activity_dados.xml"
     },
     {
-        "merged": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_dados.xml",
-        "source": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\src\\main\\res\\layout\\activity_dados.xml"
+        "merged": "/media/herciliomartinsortiz/Dados/Documentos/Eng-de-Software/Hackatona2019/aliensDoGramado/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_lista.xml",
+        "source": "/media/herciliomartinsortiz/Dados/Documentos/Eng-de-Software/Hackatona2019/aliensDoGramado/app/src/main/res/layout/item_lista.xml"
     }
 ]
