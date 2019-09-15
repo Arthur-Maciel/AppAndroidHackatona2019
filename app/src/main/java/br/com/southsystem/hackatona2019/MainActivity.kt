@@ -138,6 +138,10 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
         intent = Intent(this, FormActivity::class.java)
         startActivity(intent)
     }
+    fun nextActivityEmer(view: View) {
+        intent = Intent(this, Botaoclicado::class.java)
+        startActivity(intent)
+    }
 
 }
 
