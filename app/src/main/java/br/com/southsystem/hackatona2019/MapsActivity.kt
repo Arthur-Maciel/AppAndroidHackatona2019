@@ -1,9 +1,13 @@
 package br.com.southsystem.hackatona2019
 
+import  android.content.pm.PackageManager
 import android.graphics.Color
-import androidx.appcompat.app.AppCompatActivity
+import android.location.Location
 import android.os.Bundle
-
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.ActivityCompat
+import com.google.android.gms.location.FusedLocationProviderClient
+import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -12,21 +16,44 @@ import com.google.android.gms.maps.model.Circle
 import com.google.android.gms.maps.model.CircleOptions
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
-import kotlin.collections.ArrayList
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
     private lateinit var mMap: GoogleMap
+    private lateinit var lastLocation: Location
+    private lateinit var fusedLocationClient: FusedLocationProviderClient
+
 
     private val areas: ArrayList<Area> = arrayListOf()
 
+    companion object {
+        private const val LOCATION_PERMISSION_REQUEST_CODE = 1
+    }
+
+    private fun setUpMap() {
+        if (ActivityCompat.checkSelfPermission(
+                this,
+                android.Manifest.permission.ACCESS_FINE_LOCATION
+            ) != PackageManager.PERMISSION_GRANTED
+        ) {
+            ActivityCompat.requestPermissions(
+                this,
+                arrayOf(android.Manifest.permission.ACCESS_FINE_LOCATION),
+                LOCATION_PERMISSION_REQUEST_CODE
+            )
+            return
+        }
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_maps)
+        setContentView(R.layout.fragment_map)
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         val mapFragment = supportFragmentManager
             .findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
+
+        fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
 
     }
 
@@ -37,11 +64,26 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         val puc = LatLng(-30.0592363, -51.1751851)
         mMap.addMarker(MarkerOptions().position(puc).title("Marker in PUCRS"))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(puc))
+        mMap.uiSettings.isZoomControlsEnabled = true
+
+        setUpMap()
+
+        mMap.isMyLocationEnabled = true
+        fusedLocationClient.lastLocation.addOnSuccessListener(this) { location ->
+            if (location != null) {
+                lastLocation = location
+                val currentLatLng = LatLng(location.latitude, location.longitude)
+                println(location.latitude)
+                println(location.longitude)
+                mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(currentLatLng, 12f))
+            }
+        }
+
         mMap.setMinZoomPreference(15f)
 
-        val area1 = Area("area 1",-30.0699753, -51.1757777,500, Status("mato","em alerta", 900))
-        val area2 = Area("area 2",-30.0562199, -51.1800445, 300, Status("riacho","sereno", 870))
-        val area3 = Area("area 3",-30.0605308, -51.166284, 150, Status("arvores","perigo", 1403))
+        val area1 = Area("area 1", -30.0699753, -51.1757777, 500, Status("mato", "em alerta", 900))
+        val area2 = Area("area 2", -30.0562199, -51.1800445, 300, Status("riacho", "sereno", 870))
+        val area3 = Area("area 3", -30.0605308, -51.166284, 150, Status("arvores", "perigo", 1403))
 
         areas.add(area1)
         areas.add(area2)
@@ -55,7 +97,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
             println(it.toString())
         }
     }
-
 
     private fun loadAreas() = areas.map {
 

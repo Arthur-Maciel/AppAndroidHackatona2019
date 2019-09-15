@@ -1,51 +1,143 @@
 [
     {
-        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_seta.png.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_seta.png"
     },
     {
         "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/layout_activity_recursos.xml.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/layout/activity_recursos.xml"
     },
     {
-        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/layout_item_lista.xml.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/layout/item_lista.xml"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_seta.xml.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_seta.xml"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
         "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_perigo.png.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_perigo.png"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_seta.png.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/build/generated/res/pngs/debug/drawable-ldpi/ic_seta.png"
     },
     {
         "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_background.png.flat",
         "source": "/home/ages/Documentos/aliensDoGramado/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
-    },
-    {
-        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_background.png.flat",
         "source": "/home/ages/Documentos/aliensDoGramado/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_background.png"
     },
     {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/layout_activity_dados_localidade.xml.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/layout/activity_dados_localidade.xml"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_perigo.png.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/build/generated/res/pngs/debug/drawable-mdpi/ic_perigo.png"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/layout_activity_historico.xml.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/layout/activity_historico.xml"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_seta.png.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/build/generated/res/pngs/debug/drawable-mdpi/ic_seta.png"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_perigo.png.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_perigo.png"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable_ic_item.xml.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/drawable/ic_item.xml"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_seta.png.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_seta.png"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_seta.png.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/build/generated/res/pngs/debug/drawable-hdpi/ic_seta.png"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_perigo.xml.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_perigo.xml"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/layout_activity_dados.xml.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/layout/activity_dados.xml"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/layout_activity_comentario.xml.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/layout/activity_comentario.xml"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_seta.png.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_seta.png"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
         "source": "/home/ages/Documentos/aliensDoGramado/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_perigo.png.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/build/generated/res/pngs/debug/drawable-ldpi/ic_perigo.png"
     },
     {
         "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher_background.png.flat",
@@ -60,27 +152,23 @@
         "source": "/home/ages/Documentos/aliensDoGramado/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/layout_activity_maps.xml.flat",
-        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/layout/activity_maps.xml"
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/layout_fragment_map.xml.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/layout/fragment_map.xml"
     },
     {
         "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "/home/ages/Documentos/aliensDoGramado/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml"
-    },
-    {
         "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_background.png.flat",
         "source": "/home/ages/Documentos/aliensDoGramado/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_perigo.png.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/build/generated/res/pngs/debug/drawable-hdpi/ic_perigo.png"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_perigo.png.flat",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_perigo.png"
     }
 ]

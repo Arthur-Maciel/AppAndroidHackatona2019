@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_dados.xml",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/layout/activity_dados.xml"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_recursos.xml",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/layout/activity_recursos.xml"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_comentario.xml",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/layout/activity_comentario.xml"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_historico.xml",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/layout/activity_historico.xml"
+    },
+    {
+        "merged": "/home/ages/Documentos/aliensDoGramado/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_lista.xml",
+        "source": "/home/ages/Documentos/aliensDoGramado/app/src/main/res/layout/item_lista.xml"
+    }
+]
