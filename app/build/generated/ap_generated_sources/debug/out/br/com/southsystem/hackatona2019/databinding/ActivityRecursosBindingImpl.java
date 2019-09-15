@@ -17,7 +17,7 @@ public class ActivityRecursosBindingImpl extends ActivityRecursosBinding  {
         sViewsWithIds.put(R.id.titulo, 1);
         sViewsWithIds.put(R.id.cidade, 2);
         sViewsWithIds.put(R.id.saude, 3);
-        sViewsWithIds.put(R.id.populacao_view, 4);
+        sViewsWithIds.put(R.id.saude_view, 4);
         sViewsWithIds.put(R.id.apoio, 5);
         sViewsWithIds.put(R.id.apoio_view, 6);
         sViewsWithIds.put(R.id.bombeiros, 7);
@@ -26,14 +26,12 @@ public class ActivityRecursosBindingImpl extends ActivityRecursosBinding  {
         sViewsWithIds.put(R.id.agua_view, 10);
         sViewsWithIds.put(R.id.telefonia, 11);
         sViewsWithIds.put(R.id.telefonia_view, 12);
-        sViewsWithIds.put(R.id.luz, 13);
-        sViewsWithIds.put(R.id.luz_view, 14);
-        sViewsWithIds.put(R.id.internet, 15);
-        sViewsWithIds.put(R.id.internet_view, 16);
-        sViewsWithIds.put(R.id.saneamento, 17);
-        sViewsWithIds.put(R.id.saneamento_view, 18);
-        sViewsWithIds.put(R.id.acessibilidade, 19);
-        sViewsWithIds.put(R.id.acessibilidade_view, 20);
+        sViewsWithIds.put(R.id.internet, 13);
+        sViewsWithIds.put(R.id.internet_view, 14);
+        sViewsWithIds.put(R.id.saneamento, 15);
+        sViewsWithIds.put(R.id.saneamento_view, 16);
+        sViewsWithIds.put(R.id.acessibilidade, 17);
+        sViewsWithIds.put(R.id.acessibilidade_view, 18);
     }
     // views
     @NonNull
@@ -44,12 +42,12 @@ public class ActivityRecursosBindingImpl extends ActivityRecursosBinding  {
     // Inverse Binding Event Handlers
 
     public ActivityRecursosBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 21, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 19, sIncludes, sViewsWithIds));
     }
     private ActivityRecursosBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.TextView) bindings[19]
-            , (android.widget.TextView) bindings[20]
+            , (android.widget.TextView) bindings[17]
+            , (android.widget.TextView) bindings[18]
             , (android.widget.TextView) bindings[9]
             , (android.widget.TextView) bindings[10]
             , (android.widget.TextView) bindings[5]
@@ -57,14 +55,12 @@ public class ActivityRecursosBindingImpl extends ActivityRecursosBinding  {
             , (android.widget.TextView) bindings[7]
             , (android.widget.TextView) bindings[8]
             , (android.widget.TextView) bindings[2]
-            , (android.widget.TextView) bindings[15]
-            , (android.widget.TextView) bindings[16]
             , (android.widget.TextView) bindings[13]
             , (android.widget.TextView) bindings[14]
-            , (android.widget.TextView) bindings[4]
-            , (android.widget.TextView) bindings[17]
-            , (android.widget.TextView) bindings[18]
+            , (android.widget.TextView) bindings[15]
+            , (android.widget.TextView) bindings[16]
             , (android.widget.TextView) bindings[3]
+            , (android.widget.TextView) bindings[4]
             , (android.widget.TextView) bindings[11]
             , (android.widget.TextView) bindings[12]
             , (android.widget.TextView) bindings[1]

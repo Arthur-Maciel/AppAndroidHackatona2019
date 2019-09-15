@@ -1326,6 +1326,7 @@ drawable ic_keyboard_arrow_left_black_24dp
 drawable ic_keyboard_arrow_right_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_menu
 drawable ic_menu_arrow_down_black_24dp
 drawable ic_menu_arrow_up_black_24dp
 drawable ic_mtrl_checked_circle
@@ -1334,6 +1335,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_perigo
 drawable ic_seta
+drawable lupa
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1428,6 +1430,7 @@ id adjust_width
 id agua
 id agua_view
 id alertTitle
+id alert_button
 id all
 id always
 id apoio
@@ -1537,8 +1540,6 @@ id line1
 id line3
 id listMode
 id list_item
-id luz
-id luz_view
 id map
 id masked
 id media_actions
@@ -1594,6 +1595,7 @@ id saneamento
 id saneamento_view
 id satellite
 id saude
+id saude_view
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type

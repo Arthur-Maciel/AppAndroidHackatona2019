@@ -8,5 +8,8 @@ class ComentarioActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_comentario)
+
+        val bundle = this.intent.extras!!
+        val dados = bundle.getStringArrayList("dados")
     }
 }

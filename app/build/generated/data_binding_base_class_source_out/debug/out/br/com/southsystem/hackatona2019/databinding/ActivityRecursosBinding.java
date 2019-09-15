@@ -48,15 +48,6 @@ public abstract class ActivityRecursosBinding extends ViewDataBinding {
   public final TextView internetView;
 
   @NonNull
-  public final TextView luz;
-
-  @NonNull
-  public final TextView luzView;
-
-  @NonNull
-  public final TextView populacaoView;
-
-  @NonNull
   public final TextView saneamento;
 
   @NonNull
@@ -64,6 +55,9 @@ public abstract class ActivityRecursosBinding extends ViewDataBinding {
 
   @NonNull
   public final TextView saude;
+
+  @NonNull
+  public final TextView saudeView;
 
   @NonNull
   public final TextView telefonia;
@@ -77,9 +71,9 @@ public abstract class ActivityRecursosBinding extends ViewDataBinding {
   protected ActivityRecursosBinding(Object _bindingComponent, View _root, int _localFieldCount,
       TextView acessibilidade, TextView acessibilidadeView, TextView agua, TextView aguaView,
       TextView apoio, TextView apoioView, TextView bombeiros, TextView bombeirosView,
-      TextView cidade, TextView internet, TextView internetView, TextView luz, TextView luzView,
-      TextView populacaoView, TextView saneamento, TextView saneamentoView, TextView saude,
-      TextView telefonia, TextView telefoniaView, TextView titulo) {
+      TextView cidade, TextView internet, TextView internetView, TextView saneamento,
+      TextView saneamentoView, TextView saude, TextView saudeView, TextView telefonia,
+      TextView telefoniaView, TextView titulo) {
     super(_bindingComponent, _root, _localFieldCount);
     this.acessibilidade = acessibilidade;
     this.acessibilidadeView = acessibilidadeView;
@@ -92,12 +86,10 @@ public abstract class ActivityRecursosBinding extends ViewDataBinding {
     this.cidade = cidade;
     this.internet = internet;
     this.internetView = internetView;
-    this.luz = luz;
-    this.luzView = luzView;
-    this.populacaoView = populacaoView;
     this.saneamento = saneamento;
     this.saneamentoView = saneamentoView;
     this.saude = saude;
+    this.saudeView = saudeView;
     this.telefonia = telefonia;
     this.telefoniaView = telefoniaView;
     this.titulo = titulo;

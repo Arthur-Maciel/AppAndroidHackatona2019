@@ -5,6 +5,9 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProviders
+import br.com.southsystem.hackatona2019.api.Data
 
 
 class MainActivity : AppCompatActivity() {
@@ -14,6 +17,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         addFragment(MapFragment(), false, "one")
+
+        val viewModel = ViewModelProviders.of(this).get(DadosViewModel::class.java)
+        viewModel.dadosLiveData.observe(this, Observer {
+            it?.let { dados ->
+            }
+        })
+
+        viewModel.getDados()
 
     }
 
@@ -29,8 +40,17 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun nextActivity(view: View) {
-        intent = Intent(this, DadosLocalidadeActivity::class.java)
-        startActivity(intent)
+        val viewModel = ViewModelProviders.of(this).get(DadosViewModel::class.java)
+        viewModel.dadosLiveData.observe(this, Observer {
+            it?.let { dados ->
+                intent = Intent(this, DadosLocalidadeActivity::class.java).putExtra("dados",it[1])
+                startActivity(intent)
+            }
+        })
+
+        viewModel.getDados()
+
+
     }
 
 }
