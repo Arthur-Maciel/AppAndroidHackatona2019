@@ -7,17 +7,16 @@
     <uses-sdk
         android:minSdkVersion="16"
         android:targetSdkVersion="29" />
-
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
          location permissions for the 'MyLocation' functionality.
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-
-    <!-- Include required permissions for Google Maps API to run. -->
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <uses-feature
         android:glEsVersion="0x00020000"
@@ -32,8 +31,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity android:name="br.com.southsystem.hackatona2019.EventoActivity" />
+        <activity android:name="br.com.southsystem.hackatona2019.ComentarioActivity" />
+        <activity android:name="br.com.southsystem.hackatona2019.HistoricoActivity" />
+        <activity android:name="br.com.southsystem.hackatona2019.RecursosActivity" />
+        <activity android:name="br.com.southsystem.hackatona2019.DadosActivity" />
+        <activity android:name="br.com.southsystem.hackatona2019.DadosLocalidadeActivity" />
+        <activity android:name="br.com.southsystem.hackatona2019.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -45,20 +56,16 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
-
-        <activity
-            android:name="br.com.southsystem.hackatona2019.MapsActivity"
-            android:label="@string/title_activity_maps" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <!-- Needs to be explicitly declared on P+ -->
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="br.com.southsystem.hackatona2019.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
 
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"

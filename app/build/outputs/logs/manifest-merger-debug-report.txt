@@ -1,126 +1,208 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:2:1-43:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\dadbeb25430cd54fc6a0f915801c7b25\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\07f3a6394817a2ecee5cdf177a2ae250\core-ktx-1.1.0\AndroidManifest.xml:2:1-9:12
+ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:2:1-48:12
+MERGED from [androidx.databinding:databinding-adapters:3.6.0-alpha10] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\e3dab6f520cb0904e26ca1e58db8688d\databinding-adapters-3.6.0-alpha10\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.6.0-alpha10] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\248c783711d723d39ed4e169d83ddc71\databinding-runtime-3.6.0-alpha10\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b75793153e94cb56d2b41ade13832ab5\jetified-play-services-maps-16.1.0\AndroidManifest.xml:17:1-38:12
+MERGED from [androidx.core:core-ktx:1.0.2] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\1b5965a99292114039cad28f1f8f193b\core-ktx-1.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.1.0-alpha06] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\020e4a340f87038e8ba8d4ce27bd6cb7\material-1.1.0-alpha06\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha02] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\0b0e514f8c57aef90f8caee65fe0da92\viewpager2-1.0.0-alpha02\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha03] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\a862505abe431c1edbc88e990b22972b\appcompat-1.1.0-alpha03\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\f7c518345a97e234331faf6343d9a314\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha03] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\ff33fe14bc4d9124bcf322073f1f76e4\recyclerview-1.1.0-alpha03\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\27bcc85793353b7ef96ac96e598eaa06\lifecycle-extensions-2.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.databinding:viewbinding:3.6.0-alpha10] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\9664e4f4c0d2a39bdf41f27fb6b27d6e\viewbinding-3.6.0-alpha10\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\106308618058c9c355146c83b68beb2c\lifecycle-process-2.0.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\dd1b3a31fd2528be4176173690525b46\lifecycle-service-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b56e62104b5d66e905b14262d100764c\jetified-play-services-base-16.0.1\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\120699e9e0973e2f7568e97686f56450\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\0e01617456303099ae9c633a9f453139\jetified-play-services-basement-16.0.1\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\1fd599d7029f4a6cccebf8eb8129b740\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\f6f144a1a6237737c945c64bf623de69\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\145c30d3c2eaec141a7c35952da871af\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha03] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\307df49667676f8059b1cd2a9c153606\appcompat-resources-1.1.0-alpha03\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\bc1557a8f8f431301b1bdd090dbf7c77\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\6be9eb6299d64aa55bd6769eeba9baa7\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\3736d50e09bb5625cf16394e623b644d\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\798e7ee68d5ebb5b6d164ba2e005d5ea\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\f0ba5fb59e07c828d14f322ad46caa67\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\fbdbbb592ab30976aa7066588d74ae97\coordinatorlayout-1.1.0-alpha01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\05d7b1fc0a03b1c4b64334f9e79d554e\transition-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\0aa724ca2344fa355451fbcaadcdcbce\vectordrawable-1.1.0-alpha01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0-alpha05] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b2f8c23cb1d8e039743b039410016090\fragment-1.1.0-alpha05\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\98a1e5a15751b276fe03314dd825aa2f\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\eef117fe3e7cd2a68af3518c964a1ec9\activity-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\159b02ca54f75a06be84026027c4c7e1\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\4b18a12586343a7d65056e6d0de7505e\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\87ad4e07cb32dee221e0dd88d263fb37\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\798e7ee68d5ebb5b6d164ba2e005d5ea\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\3736d50e09bb5625cf16394e623b644d\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\e0f8ef635c306c13162f0b4635e89a3c\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\bc413736142ea1106a9b9e179a02dcfb\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\63101abfd59d09a7d6723389d254e489\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\9ddb64d6c504af8b74ff01c00c3144b3\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\7e7752107e90d0f60c6391fbf1f1c000\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\2b4182d6b19d401895bae4be0d23473d\core-1.1.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\f3245f03db69896d97fe2417cd3741f4\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\86d931ef790a67f8f6c161b92958af9f\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\17dc44c3dfd912aa69341209cb0bf3bc\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\a31a2957fea8da08a58b9d5df1acafba\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\86bf74741a5a563778cdf886b6da8613\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\e6f400a1e2efa35b2952cd5fc52dbb38\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\63101abfd59d09a7d6723389d254e489\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0-alpha05] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\e6eb17c088d006a8a3b4054391a3819f\activity-1.0.0-alpha05\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-alpha05] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\8d8842863f92775e9d27e73a2dce7b0c\core-1.1.0-alpha05\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha03] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\f06c805337029d0902d759ffd5c8ae84\lifecycle-runtime-2.1.0-alpha03\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\8fb9f9119f433a163f444832636cc085\versionedparcelable-1.1.0-alpha02\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\a9e880f5492b62663d8ca74942e33962\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\ee91ddb87530c525fd4d28c4aaa36be5\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\d8e6a9fcdddefb6363c5500cd25031a1\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\444b044f3087b9fc54140a699465c709\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\073e6a2e05eb1fe4e6a26240bf19b27b\savedstate-1.0.0-alpha02\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\864fa4832348d98ed2fbcbb2954aed09\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\73295acdc1e28588b9884238a6c223fd\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\e5dffddc98db6ed8bff18f2c3b4d6b3c\print-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:2:1-43:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\e6f400a1e2efa35b2952cd5fc52dbb38\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\f3245f03db69896d97fe2417cd3741f4\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha03] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\08d8fbe54e96ce4a655071b023236e15\lifecycle-viewmodel-2.1.0-alpha03\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:2:1-48:12
 	package
 		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:3:5-47
 		INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:2:1-48:12
 		INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:2:1-48:12
 		INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:10:5-79
+ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:10:22-76
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:11:22-77
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b75793153e94cb56d2b41ade13832ab5\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b75793153e94cb56d2b41ade13832ab5\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b75793153e94cb56d2b41ade13832ab5\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b75793153e94cb56d2b41ade13832ab5\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:13:22-76
 application
-ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:12:5-41:19
+ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:15:5-46:19
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b75793153e94cb56d2b41ade13832ab5\jetified-play-services-maps-16.1.0\AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b75793153e94cb56d2b41ade13832ab5\jetified-play-services-maps-16.1.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.material:material:1.1.0-alpha06] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\020e4a340f87038e8ba8d4ce27bd6cb7\material-1.1.0-alpha06\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha06] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\020e4a340f87038e8ba8d4ce27bd6cb7\material-1.1.0-alpha06\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\f7c518345a97e234331faf6343d9a314\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\f7c518345a97e234331faf6343d9a314\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\27bcc85793353b7ef96ac96e598eaa06\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\27bcc85793353b7ef96ac96e598eaa06\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\106308618058c9c355146c83b68beb2c\lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\106308618058c9c355146c83b68beb2c\lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b56e62104b5d66e905b14262d100764c\jetified-play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b56e62104b5d66e905b14262d100764c\jetified-play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\120699e9e0973e2f7568e97686f56450\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\120699e9e0973e2f7568e97686f56450\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\0e01617456303099ae9c633a9f453139\jetified-play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\0e01617456303099ae9c633a9f453139\jetified-play-services-basement-16.0.1\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\2b4182d6b19d401895bae4be0d23473d\core-1.1.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\2b4182d6b19d401895bae4be0d23473d\core-1.1.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\86d931ef790a67f8f6c161b92958af9f\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\86d931ef790a67f8f6c161b92958af9f\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.core:core:1.1.0-alpha05] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\8d8842863f92775e9d27e73a2dce7b0c\core-1.1.0-alpha05\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.1.0-alpha05] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\8d8842863f92775e9d27e73a2dce7b0c\core-1.1.0-alpha05\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\8fb9f9119f433a163f444832636cc085\versionedparcelable-1.1.0-alpha02\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\8fb9f9119f433a163f444832636cc085\versionedparcelable-1.1.0-alpha02\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\2b4182d6b19d401895bae4be0d23473d\core-1.1.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.1.0-alpha05] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\8d8842863f92775e9d27e73a2dce7b0c\core-1.1.0-alpha05\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:20:9-35
 	android:label
-		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:18:9-41
 	android:roundIcon
-		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:16:9-54
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:19:9-54
 	android:icon
-		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:17:9-43
 	android:allowBackup
-		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:16:9-35
 	android:theme
-		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:18:9-40
-meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:28:9-30:55
-	android:value
-		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:30:13-52
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:21:9-65
+activity#br.com.southsystem.hackatona2019.EventoActivity
+ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:22:9-61
 	android:name
-		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:29:13-58
-activity#br.com.southsystem.hackatona2019.MapsActivity
-ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:32:9-40:20
-	android:label
-		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:34:13-56
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:22:19-49
+activity#br.com.southsystem.hackatona2019.ComentarioActivity
+ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:23:9-56
 	android:name
-		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:33:13-41
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:23:19-53
+activity#br.com.southsystem.hackatona2019.HistoricoActivity
+ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:24:9-55
+	android:name
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:24:19-52
+activity#br.com.southsystem.hackatona2019.RecursosActivity
+ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:25:9-54
+	android:name
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:25:19-51
+activity#br.com.southsystem.hackatona2019.DadosActivity
+ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:26:9-51
+	android:name
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:26:19-48
+activity#br.com.southsystem.hackatona2019.DadosLocalidadeActivity
+ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:27:9-61
+	android:name
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:27:19-58
+activity#br.com.southsystem.hackatona2019.MainActivity
+ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:28:9-34:20
+	android:name
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:28:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:35:13-39:29
+ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:29:13-33:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:36:17-69
+ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:36:25-66
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:38:17-77
+ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:38:27-74
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:32:27-74
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:43:9-45:55
+	android:value
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:45:13-52
+	android:name
+		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:44:13-58
 uses-sdk
 INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\dadbeb25430cd54fc6a0f915801c7b25\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\dadbeb25430cd54fc6a0f915801c7b25\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\07f3a6394817a2ecee5cdf177a2ae250\core-ktx-1.1.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\07f3a6394817a2ecee5cdf177a2ae250\core-ktx-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:databinding-adapters:3.6.0-alpha10] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\e3dab6f520cb0904e26ca1e58db8688d\databinding-adapters-3.6.0-alpha10\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.6.0-alpha10] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\e3dab6f520cb0904e26ca1e58db8688d\databinding-adapters-3.6.0-alpha10\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.6.0-alpha10] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\248c783711d723d39ed4e169d83ddc71\databinding-runtime-3.6.0-alpha10\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.6.0-alpha10] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\248c783711d723d39ed4e169d83ddc71\databinding-runtime-3.6.0-alpha10\AndroidManifest.xml:22:5-44
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b75793153e94cb56d2b41ade13832ab5\jetified-play-services-maps-16.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b75793153e94cb56d2b41ade13832ab5\jetified-play-services-maps-16.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.0.2] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\1b5965a99292114039cad28f1f8f193b\core-ktx-1.0.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.0.2] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\1b5965a99292114039cad28f1f8f193b\core-ktx-1.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha06] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\020e4a340f87038e8ba8d4ce27bd6cb7\material-1.1.0-alpha06\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha06] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\020e4a340f87038e8ba8d4ce27bd6cb7\material-1.1.0-alpha06\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha02] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\0b0e514f8c57aef90f8caee65fe0da92\viewpager2-1.0.0-alpha02\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha02] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\0b0e514f8c57aef90f8caee65fe0da92\viewpager2-1.0.0-alpha02\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha03] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\a862505abe431c1edbc88e990b22972b\appcompat-1.1.0-alpha03\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha03] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\a862505abe431c1edbc88e990b22972b\appcompat-1.1.0-alpha03\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\f7c518345a97e234331faf6343d9a314\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\f7c518345a97e234331faf6343d9a314\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha03] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\ff33fe14bc4d9124bcf322073f1f76e4\recyclerview-1.1.0-alpha03\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha03] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\ff33fe14bc4d9124bcf322073f1f76e4\recyclerview-1.1.0-alpha03\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\27bcc85793353b7ef96ac96e598eaa06\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\27bcc85793353b7ef96ac96e598eaa06\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:3.6.0-alpha10] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\9664e4f4c0d2a39bdf41f27fb6b27d6e\viewbinding-3.6.0-alpha10\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:3.6.0-alpha10] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\9664e4f4c0d2a39bdf41f27fb6b27d6e\viewbinding-3.6.0-alpha10\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\106308618058c9c355146c83b68beb2c\lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\106308618058c9c355146c83b68beb2c\lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\dd1b3a31fd2528be4176173690525b46\lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\dd1b3a31fd2528be4176173690525b46\lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b56e62104b5d66e905b14262d100764c\jetified-play-services-base-16.0.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b56e62104b5d66e905b14262d100764c\jetified-play-services-base-16.0.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\120699e9e0973e2f7568e97686f56450\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
@@ -129,64 +211,68 @@ MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Sout
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\0e01617456303099ae9c633a9f453139\jetified-play-services-basement-16.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\1fd599d7029f4a6cccebf8eb8129b740\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\1fd599d7029f4a6cccebf8eb8129b740\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\f6f144a1a6237737c945c64bf623de69\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\f6f144a1a6237737c945c64bf623de69\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\145c30d3c2eaec141a7c35952da871af\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\145c30d3c2eaec141a7c35952da871af\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha03] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\307df49667676f8059b1cd2a9c153606\appcompat-resources-1.1.0-alpha03\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha03] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\307df49667676f8059b1cd2a9c153606\appcompat-resources-1.1.0-alpha03\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\bc1557a8f8f431301b1bdd090dbf7c77\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\bc1557a8f8f431301b1bdd090dbf7c77\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\6be9eb6299d64aa55bd6769eeba9baa7\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\6be9eb6299d64aa55bd6769eeba9baa7\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\3736d50e09bb5625cf16394e623b644d\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\3736d50e09bb5625cf16394e623b644d\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\798e7ee68d5ebb5b6d164ba2e005d5ea\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\798e7ee68d5ebb5b6d164ba2e005d5ea\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\f0ba5fb59e07c828d14f322ad46caa67\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\f0ba5fb59e07c828d14f322ad46caa67\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\fbdbbb592ab30976aa7066588d74ae97\coordinatorlayout-1.1.0-alpha01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\fbdbbb592ab30976aa7066588d74ae97\coordinatorlayout-1.1.0-alpha01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\05d7b1fc0a03b1c4b64334f9e79d554e\transition-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\05d7b1fc0a03b1c4b64334f9e79d554e\transition-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\0aa724ca2344fa355451fbcaadcdcbce\vectordrawable-1.1.0-alpha01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\0aa724ca2344fa355451fbcaadcdcbce\vectordrawable-1.1.0-alpha01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha05] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b2f8c23cb1d8e039743b039410016090\fragment-1.1.0-alpha05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha05] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b2f8c23cb1d8e039743b039410016090\fragment-1.1.0-alpha05\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\98a1e5a15751b276fe03314dd825aa2f\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\98a1e5a15751b276fe03314dd825aa2f\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\eef117fe3e7cd2a68af3518c964a1ec9\activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\eef117fe3e7cd2a68af3518c964a1ec9\activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\159b02ca54f75a06be84026027c4c7e1\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\159b02ca54f75a06be84026027c4c7e1\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\4b18a12586343a7d65056e6d0de7505e\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\4b18a12586343a7d65056e6d0de7505e\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\87ad4e07cb32dee221e0dd88d263fb37\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\87ad4e07cb32dee221e0dd88d263fb37\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\798e7ee68d5ebb5b6d164ba2e005d5ea\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\798e7ee68d5ebb5b6d164ba2e005d5ea\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\3736d50e09bb5625cf16394e623b644d\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\3736d50e09bb5625cf16394e623b644d\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\e0f8ef635c306c13162f0b4635e89a3c\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\e0f8ef635c306c13162f0b4635e89a3c\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\bc413736142ea1106a9b9e179a02dcfb\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\bc413736142ea1106a9b9e179a02dcfb\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\63101abfd59d09a7d6723389d254e489\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\63101abfd59d09a7d6723389d254e489\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\9ddb64d6c504af8b74ff01c00c3144b3\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\9ddb64d6c504af8b74ff01c00c3144b3\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\7e7752107e90d0f60c6391fbf1f1c000\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\7e7752107e90d0f60c6391fbf1f1c000\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\2b4182d6b19d401895bae4be0d23473d\core-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\2b4182d6b19d401895bae4be0d23473d\core-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\f3245f03db69896d97fe2417cd3741f4\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\f3245f03db69896d97fe2417cd3741f4\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\86d931ef790a67f8f6c161b92958af9f\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\86d931ef790a67f8f6c161b92958af9f\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\17dc44c3dfd912aa69341209cb0bf3bc\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\17dc44c3dfd912aa69341209cb0bf3bc\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\a31a2957fea8da08a58b9d5df1acafba\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\a31a2957fea8da08a58b9d5df1acafba\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\86bf74741a5a563778cdf886b6da8613\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\86bf74741a5a563778cdf886b6da8613\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\e6f400a1e2efa35b2952cd5fc52dbb38\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\e6f400a1e2efa35b2952cd5fc52dbb38\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\63101abfd59d09a7d6723389d254e489\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\63101abfd59d09a7d6723389d254e489\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha05] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\e6eb17c088d006a8a3b4054391a3819f\activity-1.0.0-alpha05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha05] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\e6eb17c088d006a8a3b4054391a3819f\activity-1.0.0-alpha05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-alpha05] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\8d8842863f92775e9d27e73a2dce7b0c\core-1.1.0-alpha05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-alpha05] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\8d8842863f92775e9d27e73a2dce7b0c\core-1.1.0-alpha05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha03] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\f06c805337029d0902d759ffd5c8ae84\lifecycle-runtime-2.1.0-alpha03\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha03] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\f06c805337029d0902d759ffd5c8ae84\lifecycle-runtime-2.1.0-alpha03\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\8fb9f9119f433a163f444832636cc085\versionedparcelable-1.1.0-alpha02\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\8fb9f9119f433a163f444832636cc085\versionedparcelable-1.1.0-alpha02\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\a9e880f5492b62663d8ca74942e33962\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\a9e880f5492b62663d8ca74942e33962\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\ee91ddb87530c525fd4d28c4aaa36be5\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\ee91ddb87530c525fd4d28c4aaa36be5\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\d8e6a9fcdddefb6363c5500cd25031a1\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\d8e6a9fcdddefb6363c5500cd25031a1\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\444b044f3087b9fc54140a699465c709\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\444b044f3087b9fc54140a699465c709\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\073e6a2e05eb1fe4e6a26240bf19b27b\savedstate-1.0.0-alpha02\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\073e6a2e05eb1fe4e6a26240bf19b27b\savedstate-1.0.0-alpha02\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\864fa4832348d98ed2fbcbb2954aed09\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\864fa4832348d98ed2fbcbb2954aed09\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\73295acdc1e28588b9884238a6c223fd\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\73295acdc1e28588b9884238a6c223fd\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\e5dffddc98db6ed8bff18f2c3b4d6b3c\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\e5dffddc98db6ed8bff18f2c3b4d6b3c\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\e6f400a1e2efa35b2952cd5fc52dbb38\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\e6f400a1e2efa35b2952cd5fc52dbb38\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\f3245f03db69896d97fe2417cd3741f4\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\f3245f03db69896d97fe2417cd3741f4\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha03] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\08d8fbe54e96ce4a655071b023236e15\lifecycle-viewmodel-2.1.0-alpha03\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha03] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\08d8fbe54e96ce4a655071b023236e15\lifecycle-viewmodel-2.1.0-alpha03\AndroidManifest.xml:20:5-44
 INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -197,14 +283,6 @@ INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main
 		INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b75793153e94cb56d2b41ade13832ab5\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:5-79
-	android:name
-		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b75793153e94cb56d2b41ade13832ab5\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:22-76
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b75793153e94cb56d2b41ade13832ab5\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:5-67
-	android:name
-		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b75793153e94cb56d2b41ade13832ab5\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:22-64
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b75793153e94cb56d2b41ade13832ab5\jetified-play-services-maps-16.1.0\AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
@@ -217,6 +295,16 @@ ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSyst
 		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b75793153e94cb56d2b41ade13832ab5\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
 	android:name
 		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b75793153e94cb56d2b41ade13832ab5\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\106308618058c9c355146c83b68beb2c\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\106308618058c9c355146c83b68beb2c\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\106308618058c9c355146c83b68beb2c\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\106308618058c9c355146c83b68beb2c\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\106308618058c9c355146c83b68beb2c\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\b56e62104b5d66e905b14262d100764c\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
 	android:exported
