@@ -1,19 +1,19 @@
 [
     {
-        "merged": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_item.xml.flat",
-        "source": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\src\\main\\res\\drawable\\ic_item.xml"
-    },
-    {
         "merged": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_perigo.png.flat",
         "source": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_perigo.png"
     },
     {
-        "merged": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_item.xml.flat",
+        "source": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\src\\main\\res\\drawable\\ic_item.xml"
     },
     {
         "merged": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu.png.flat",
         "source": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_menu.png"
+    },
+    {
+        "merged": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\SouthSystem\\Desktop\\get-master\\Hackatona2019\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_perigo.png.flat",

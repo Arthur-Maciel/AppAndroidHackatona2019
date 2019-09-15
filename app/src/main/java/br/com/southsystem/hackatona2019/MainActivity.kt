@@ -135,7 +135,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
     }
 
     fun nextActivity(view: View) {
-        intent = Intent(this, DadosLocalidadeActivity::class.java)
+        intent = Intent(this, FormActivity::class.java)
         startActivity(intent)
     }
 

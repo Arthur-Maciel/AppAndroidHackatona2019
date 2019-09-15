@@ -52,88 +52,89 @@
 31-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:19:9-54
 32        android:supportsRtl="true"
 32-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:20:9-35
-33        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-33-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:21:9-65
-34        <activity android:name="br.com.southsystem.hackatona2019.FormActivity" />
-34-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:22:9-59
-34-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:22:19-47
-35        <activity android:name="br.com.southsystem.hackatona2019.ComentarioActivity" />
-35-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:23:9-56
-35-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:23:19-53
-36        <activity android:name="br.com.southsystem.hackatona2019.HistoricoActivity" />
-36-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:24:9-55
-36-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:24:19-52
-37        <activity android:name="br.com.southsystem.hackatona2019.RecursosActivity" />
-37-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:25:9-54
-37-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:25:19-51
-38        <activity android:name="br.com.southsystem.hackatona2019.DadosActivity" />
-38-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:26:9-51
-38-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:26:19-48
-39        <activity android:name="br.com.southsystem.hackatona2019.DadosLocalidadeActivity" />
-39-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:27:9-61
-39-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:27:19-58
-40        <activity android:name="br.com.southsystem.hackatona2019.MainActivity" >
-40-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:28:9-34:20
-40-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:28:19-47
-41            <intent-filter>
-41-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:29:13-33:29
-42                <action android:name="android.intent.action.MAIN" />
-42-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:30:17-69
-42-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:30:25-66
-43
-44                <category android:name="android.intent.category.LAUNCHER" />
-44-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:32:17-77
-44-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:32:27-74
-45            </intent-filter>
-46        </activity>
-47        <!--
-48             The API key for Google Maps-based APIs is defined as a string resource.
-49             (See the file "res/values/google_maps_api.xml").
-50             Note that the API key is linked to the encryption key used to sign the APK.
-51             You need a different API key for each encryption key, including the release key that is used to
-52             sign the APK for publishing.
-53             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-54        -->
-55        <meta-data
-55-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:43:9-45:55
-56            android:name="com.google.android.geo.API_KEY"
-56-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:44:13-58
-57            android:value="@string/google_maps_key" />
-57-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:45:13-52
-58        <!-- Needs to be explicitly declared on P+ -->
-59        <uses-library
-59-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\09fd0ce3961234dba400bced00595740\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
-60            android:name="org.apache.http.legacy"
-60-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\09fd0ce3961234dba400bced00595740\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
-61            android:required="false" />
-61-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\09fd0ce3961234dba400bced00595740\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
-62
-63        <provider
-63-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\dfdd78eccec25ee4a81200bc9de2a062\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-64            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-64-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\dfdd78eccec25ee4a81200bc9de2a062\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-65            android:authorities="br.com.southsystem.hackatona2019.lifecycle-process"
-65-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\dfdd78eccec25ee4a81200bc9de2a062\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-66            android:exported="false"
-66-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\dfdd78eccec25ee4a81200bc9de2a062\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-67            android:multiprocess="true" />
-67-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\dfdd78eccec25ee4a81200bc9de2a062\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-68
-69        <activity
-69-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\82101aba99531e788fe07ce6ad295d76\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
-70            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-70-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\82101aba99531e788fe07ce6ad295d76\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
-71            android:exported="false"
-71-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\82101aba99531e788fe07ce6ad295d76\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
-72            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-72-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\82101aba99531e788fe07ce6ad295d76\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
-73
-74        <meta-data
-74-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\2f6c54599feca4920bdd18e420d0b508\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
-75            android:name="com.google.android.gms.version"
-75-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\2f6c54599feca4920bdd18e420d0b508\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
-76            android:value="@integer/google_play_services_version" />
-76-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\2f6c54599feca4920bdd18e420d0b508\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
-77    </application>
-78
-79</manifest>
+33        android:testOnly="true"
+34        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+34-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:21:9-65
+35        <activity android:name="br.com.southsystem.hackatona2019.FormActivity" />
+35-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:22:9-59
+35-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:22:19-47
+36        <activity android:name="br.com.southsystem.hackatona2019.ComentarioActivity" />
+36-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:23:9-56
+36-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:23:19-53
+37        <activity android:name="br.com.southsystem.hackatona2019.HistoricoActivity" />
+37-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:24:9-55
+37-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:24:19-52
+38        <activity android:name="br.com.southsystem.hackatona2019.RecursosActivity" />
+38-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:25:9-54
+38-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:25:19-51
+39        <activity android:name="br.com.southsystem.hackatona2019.DadosActivity" />
+39-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:26:9-51
+39-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:26:19-48
+40        <activity android:name="br.com.southsystem.hackatona2019.DadosLocalidadeActivity" />
+40-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:27:9-61
+40-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:27:19-58
+41        <activity android:name="br.com.southsystem.hackatona2019.MainActivity" >
+41-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:28:9-34:20
+41-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:28:19-47
+42            <intent-filter>
+42-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:29:13-33:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:30:17-69
+43-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:30:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:32:17-77
+45-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:32:27-74
+46            </intent-filter>
+47        </activity>
+48        <!--
+49             The API key for Google Maps-based APIs is defined as a string resource.
+50             (See the file "res/values/google_maps_api.xml").
+51             Note that the API key is linked to the encryption key used to sign the APK.
+52             You need a different API key for each encryption key, including the release key that is used to
+53             sign the APK for publishing.
+54             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+55        -->
+56        <meta-data
+56-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:43:9-45:55
+57            android:name="com.google.android.geo.API_KEY"
+57-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:44:13-58
+58            android:value="@string/google_maps_key" />
+58-->C:\Users\SouthSystem\Desktop\get-master\Hackatona2019\app\src\main\AndroidManifest.xml:45:13-52
+59        <!-- Needs to be explicitly declared on P+ -->
+60        <uses-library
+60-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\09fd0ce3961234dba400bced00595740\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
+61            android:name="org.apache.http.legacy"
+61-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\09fd0ce3961234dba400bced00595740\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+62            android:required="false" />
+62-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\09fd0ce3961234dba400bced00595740\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
+63
+64        <provider
+64-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\dfdd78eccec25ee4a81200bc9de2a062\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+65            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\dfdd78eccec25ee4a81200bc9de2a062\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+66            android:authorities="br.com.southsystem.hackatona2019.lifecycle-process"
+66-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\dfdd78eccec25ee4a81200bc9de2a062\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+67            android:exported="false"
+67-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\dfdd78eccec25ee4a81200bc9de2a062\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+68            android:multiprocess="true" />
+68-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\dfdd78eccec25ee4a81200bc9de2a062\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+69
+70        <activity
+70-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\82101aba99531e788fe07ce6ad295d76\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+71            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+71-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\82101aba99531e788fe07ce6ad295d76\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+72            android:exported="false"
+72-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\82101aba99531e788fe07ce6ad295d76\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+73-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\82101aba99531e788fe07ce6ad295d76\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+74
+75        <meta-data
+75-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\2f6c54599feca4920bdd18e420d0b508\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+76            android:name="com.google.android.gms.version"
+76-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\2f6c54599feca4920bdd18e420d0b508\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+77            android:value="@integer/google_play_services_version" />
+77-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\SouthSystem\.gradle\caches\transforms-2\files-2.1\2f6c54599feca4920bdd18e420d0b508\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+78    </application>
+79
+80</manifest>
