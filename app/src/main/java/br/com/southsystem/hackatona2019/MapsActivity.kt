@@ -52,7 +52,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         circles?.forEach { mMap.addCircle(it) }
 
         mMap.setOnCircleClickListener {
-            println(it.isVisible)
+            println(it.toString())
         }
     }
 
@@ -68,14 +68,16 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                         .radius(it.raio.toDouble())
                         .strokeWidth(5f)
                         .strokeColor(Color.GREEN)
-                            .fillColor(Color.argb(70, 124, 252, 0))
+                        .fillColor(Color.argb(70, 124, 252, 0))
+                        .clickable(true)
                 it.Status.situacao.equals("em alerta") ->
                     CircleOptions()
                         .center(cent)
                         .radius(it.raio.toDouble())
                         .strokeWidth(5f)
                         .strokeColor(Color.YELLOW)
-                            .fillColor(Color.argb(70, 255, 255, 0))
+                        .fillColor(Color.argb(70, 255, 255, 0))
+                        .clickable(true)
 
                 else ->
                     CircleOptions()
@@ -83,7 +85,8 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                         .radius(it.raio.toDouble())
                         .strokeWidth(5f)
                         .strokeColor(Color.RED)
-                            .fillColor(Color.argb(70,150, 70, 70))
+                        .fillColor(Color.argb(70,150, 70, 70))
+                        .clickable(true)
 
             }
         }
